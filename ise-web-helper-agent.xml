@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="PRIVTISE02" type="rpm" version="1.0.4" install-location="internal-only">
+<label>Web keyboard container</label>
+<author/>
+<description/>
+<label>Web keyboard container</label>
+<icon/>
+<ui-application appid="PRIVTISE02.ise-web-helper-agent" exec="/usr/lib/scim-1.0/scim-helper-launcher" nodisplay="true" taskmanage="false" multiple="false" type="capp" hw-acceleration="use-system-setting" mainapp="true">
+        <category name="http://tizen.org/category/ime"/>
+        <label>Web keyboard container</label>
+        <label xml:lang="en-us">Web keyboard container</label>
+        <icon/>
+</ui-application>
+<ime appid="PRIVTISE02.ise-web-helper-agent">
+        <uuid>1373647e-5d53-4019-b810-ed068e44873c</uuid>
+        <label>Web keyboard container</label>
+        <label xml:lang="en-us">Web keyboard container</label>
+        <languages>
+                <language>en-us</language>
+        </languages>
+        <type>SOFTWARE_KEYBOARD_ISE</type>
+        <options>
+                <option>STAND_ALONE</option>
+                <option>NEED_SCREEN_INFO</option>
+                <option>AUTO_RESTART</option>
+        </options>
+</ime>
+</manifest>
